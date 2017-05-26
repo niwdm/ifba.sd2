@@ -1,2 +1,2 @@
-# ifba.sd2.wnmap
-Ifba Sd2 Windows NMap
+# ifba.sd2
+Ifba Sd2
