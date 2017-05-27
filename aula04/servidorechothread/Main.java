@@ -25,7 +25,7 @@ public class Main {
             ServerSocket server = new ServerSocket(6789);
             while (true) {
                 Socket socket = server.accept();
-                Worker worker1 = new Worker(socket);
+                WorkerThread worker = new WorkerThread(socket);
             }
         } catch (IOException ex) {
             Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);

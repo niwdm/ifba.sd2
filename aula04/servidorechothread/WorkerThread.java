@@ -9,6 +9,7 @@ package br.ifba.sd2.aula04.servidorechothread;
  *
  * @author Airton
  */
-public class WorkerThread {
+public class WorkerThread extends Thread {
+    
     
 }
