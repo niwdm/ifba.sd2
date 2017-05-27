@@ -26,10 +26,10 @@ public class Main {
             while (true) {
                 Socket socket = server.accept();
                 WorkerThread worker = new WorkerThread(socket);
+                worker.start();
             }
         } catch (IOException ex) {
             Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
-
 }
